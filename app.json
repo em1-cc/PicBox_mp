@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/home/home",
+
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "画盒",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "/img/icons/Leftbar_index_unselected.png",
+        "selectedIconPath": "/img/icons/Leftbar_index_selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "抽奖",
+        "iconPath": "/img/icons/Leftbar_shop_unselected.png",
+        "selectedIconPath": "/img/icons/Leftbar_shop_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "抽奖",
+        "iconPath": "/img/icons/Leftbar_mine_unselected.png",
+        "selectedIconPath": "/img/icons/Leftbar_mine_selected.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

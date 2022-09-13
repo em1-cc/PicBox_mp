@@ -1,0 +1,23 @@
+<!--pages/home/home.wxml-->
+<view class="nav-bar">
+	<text>logo</text>
+	<!-- <t-search model:value="{{value}}" placeholder="搜索预设文案" center="{{true}}" /> -->
+</view>
+
+<swiper indicator-dots circular>
+	<swiper-item wx:for="{{swiperData}}" wx:key="id">
+		<image src="{{item.src}}"></image>
+	</swiper-item>
+</swiper>
+
+<view class="grid-list">
+	<view class="grid-item" wx:for="{{gridData}}" wx:key="id">
+		<image src="{{item.icon}}"></image>
+		<text>{{item.name}}</text>
+	</view>
+</view>
+
+<view class="img-box">
+	<view style="background-color: aqua;">1</view>
+	<view style="background-color:blue;">2</view>
+</view>
