@@ -1,13 +1,15 @@
 /* pages/home/home.wxss */
 
-/*  */
+/* nav-bar */
 .nav-bar {
   height: 100rpx;
   display: flex;
   justify-content:space-between;
+  align-items: center;
+  background-color: cadetblue;
 }
 
-/*  */
+/* swiper */
 swiper {
   height: 350 rpx;
 }
@@ -16,13 +18,13 @@ swiper image{
   height: 100%;
 }
 
-/*  */
+/* grid-list */
 .grid-list{
   display: flex;
   flex-wrap: wrap;       
 }
 .grid-item{
-  width: 25%;
+  width: 20%;
   height: 200rpx;
   display: flex;
   flex-direction: column;
@@ -34,11 +36,12 @@ swiper image{
   height: 100rpx;
 }
 
-/*  */
+/* img-box */
 .img-box view{
   width: 50%;
-  height: 200rpx;
+  height: 400rpx;
 }
 .img-box{
   display: flex;
+  flex-wrap: wrap;
 }

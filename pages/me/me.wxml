@@ -1,0 +1,46 @@
+<view class="container">
+  <view class="my-info">
+    <image></image>
+  </view>
+
+  
+
+  <view id="my-item">
+    <view class="my-order c">
+      <view class="c">
+        <image src="/img/icons/my-item.png" class="item-icon"></image>
+        <text style="font-size: large;font-weight:bold;">我的订单</text>
+      </view>
+      <text>全部订单></text>
+    </view>
+  <view class="c my-order-item">
+    <view class="items c">
+      <image src="/img/icons/my/待付款.png"></image>
+      <text>待付款</text>
+    </view>
+    <view class="items c">
+      <image src="/img/icons/my/代发货.png"></image>
+      <text>待发货</text>
+    </view>
+    <view class="items c">
+      <image src="/img/icons/my/待收货.png"></image>
+      <text>待收货</text>
+    </view>
+    <view  class="items c">
+      <image src="/img/icons/my/已完成.png"></image>
+      <text>已完成</text>
+    </view>
+  </view>
+  </view>
+
+  <view id="my-item">
+    <view class="my-order c">
+      <view class="c">
+        <image src="/img/icons/my-item.png" class="item-icon"></image>
+        <text style="font-size: large;font-weight:bold;">我的工具</text>
+      </view>
+    </view>
+    
+  </view>
+
+</view>

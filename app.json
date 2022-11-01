@@ -1,9 +1,11 @@
 {
   "pages":[
-    "pages/home/home",
+    "pages/me/me",
 
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home/home",
+    "pages/event/event",
+    "pages/gallary/gallary"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -16,23 +18,31 @@
       {
         "pagePath": "pages/home/home",
         "text": "主页",
-        "iconPath": "/img/icons/Leftbar_index_unselected.png",
-        "selectedIconPath": "/img/icons/Leftbar_index_selected.png"
+        "iconPath": "/img/icons/tabbar/home_unse.png",
+        "selectedIconPath": "/img/icons/tabbar/home_se.png"
       },
       {
-        "pagePath": "pages/index/index",
-        "text": "抽奖",
-        "iconPath": "/img/icons/Leftbar_shop_unselected.png",
-        "selectedIconPath": "/img/icons/Leftbar_shop_selected.png"
+        "pagePath": "pages/event/event",
+        "text": "活动",
+        "iconPath": "/img/icons/tabbar/event_unse.png",
+        "selectedIconPath": "/img/icons/tabbar/event_se.png"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "抽奖",
-        "iconPath": "/img/icons/Leftbar_mine_unselected.png",
-        "selectedIconPath": "/img/icons/Leftbar_mine_selected.png"
+        "pagePath": "pages/gallary/gallary",
+        "text": "橱窗",
+        "iconPath": "/img/icons/tabbar/gallery_unse.png",
+        "selectedIconPath": "/img/icons/tabbar/gallery_se.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/img/icons/tabbar/my_unse.png",
+        "selectedIconPath": "/img/icons/tabbar/my_se.png"
       }
     ]
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+  }
 }

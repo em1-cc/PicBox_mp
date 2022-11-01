@@ -44,21 +44,6 @@ Page({
         name : "test1",
         icon: "/img/双子座.png"
       },
-      {
-        id: 6,
-        name : "test1",
-        icon: "/img/双子座.png"
-      },
-      {
-        id: 7,
-        name : "test1",
-        icon: "/img/双子座.png"
-      },
-      {
-        id: 8,
-        name : "test1",
-        icon: "/img/双子座.png"
-      },
     ]
   },
 
@@ -80,7 +65,9 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow() {
-
+    wx.showToast({
+      title: '开发中',
+    })
   },
 
   /**

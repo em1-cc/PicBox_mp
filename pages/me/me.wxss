@@ -1,0 +1,37 @@
+/* pages/me/me.wxss */
+page {
+  background-color: #fafafa;
+}
+
+#my-item{
+  background-color: #ffffff;
+  /* background-color: green; */
+  border-radius: 50rpx;
+  padding: 20rpx;
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+/* 我的订单 */
+.my-order {
+  justify-content: space-between;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  margin-bottom: 30rpx;
+}
+
+.my-order-item {
+  
+  justify-content:space-between;
+}
+
+.items {
+  flex-direction: column;
+}
+
+.items image{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+/* 我的工具 */
