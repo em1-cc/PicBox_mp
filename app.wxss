@@ -18,3 +18,25 @@
   justify-content: center;
   align-items: center;
 }
+
+/*********************** color ***********************/
+
+.color-green {
+  background-color: #4AB9A8;
+}
+
+
+
+/*********************** font ***********************/
+
+.f-bold {
+  font-weight: bold;
+}
+
+.f-gray{
+  color: #646464;
+}
+
+.f-small {
+  font-size: 22rpx;
+}

@@ -1,47 +1,143 @@
 /* pages/home/home.wxss */
 
+#main {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
 /* nav-bar */
 .nav-bar {
   height: 100rpx;
   display: flex;
   justify-content:space-between;
   align-items: center;
-  background-color: cadetblue;
 }
 
-/* swiper */
+
+
+
+
+/*********************** search bar ***********************/
+
+#search-bar {
+  margin-bottom: 15rpx;
+  justify-content: space-between;
+}
+
+#search-bar > view {
+  width: 644rpx;
+  height: 77rpx;
+  border-radius: 45rpx;
+  box-shadow: inset 1px 2px 4px 0px #00000070;
+}
+
+#search-bar input {
+  /* border: 1rpx solid black; */
+  width: 425rpx;
+}
+
+#search-bar button {
+  width: 124rpx;
+  height: 70rpx;
+  border-radius: 45rpx;
+  margin: 0;
+  margin-right: 2rpx;
+}
+
+#search-bar button > text {
+  font-size: 30rpx;
+  color: white;
+}
+
+/*********************** swiper ***********************/
+
 swiper {
-  height: 350 rpx;
+  height: 270 rpx;
+  border-radius: 25rpx;
+  overflow: hidden;
 }
 swiper image{
   width: 100%;
   height: 100%;
 }
 
+/*********************** 导航栏 ***********************/
+
 /* grid-list */
 .grid-list{
+  margin-top: 30rpx;
   display: flex;
-  flex-wrap: wrap;       
+  flex-wrap: wrap;
 }
 .grid-item{
   width: 20%;
-  height: 200rpx;
+  height: 150rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content:center;
 }
 .grid-item image{
-  width: 100rpx;
-  height: 100rpx;
+  width: 103rpx;
+  height: 110rpx;
 }
 
-/* img-box */
-.img-box view{
-  width: 50%;
-  height: 400rpx;
+/*********************** 热卖推荐 ***********************/
+
+/* item */
+.item {
+  height: 440rpx;
+  width: 345rpx;
+  border-radius: 15px;
+  box-shadow: 3px 4px 15px 0px #0000001c;
+  margin-bottom: 15rpx;
+  z-index: 10;
+  overflow: hidden;
 }
-.img-box{
-  display: flex;
-  flex-wrap: wrap;
+
+.item image{
+  position: relative;
+  width: 100%;
+  height: 330rpx;
+}
+
+.item-info {
+  position: relative;
+  height: 30%;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  border-radius: 0 0 15rpx 15rpx;
+}
+
+
+
+.item-price {
+  color: #EF4756;
+  margin-left:28rpx
+}
+
+/*********************** icons ***********************/
+
+#gm {
+  width: 106rpx;
+  height: 36rpx;
+  margin-right:28rpx
+}
+
+#remai {
+  width: 31rpx;
+  height: 31rpx;
+  margin-right: 25rpx;
+}
+
+#notice {
+  width: 42rpx;
+  height: 48rpx;
+}
+
+#search{
+  margin-left: 25rpx;
+  width: 32rpx;
+  height: 32rpx;
 }

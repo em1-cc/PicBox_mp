@@ -21,28 +21,28 @@ Page({
     gridData:[
       {
         id: 1,
-        name : "test1",
-        icon: "/img/双子座.png"
+        name : "次元动漫",
+        icon: "/img/home/n1.png",
       },
       {
         id: 2,
-        name : "test1",
-        icon: "/img/双子座.png"
+        name : "Q版萌宠",
+        icon: "/img/home/n2.png",
       },
       {
         id: 3,
-        name : "test1",
-        icon: "/img/双子座.png"
+        name : "图片盲盒",
+        icon: "/img/home/n3.png",
       },
       {
         id: 4,
-        name : "test1",
-        icon: "/img/双子座.png"
+        name : "电子潮玩",
+        icon: "/img/home/n4.png",
       },
       {
         id: 5,
-        name : "test1",
-        icon: "/img/双子座.png"
+        name : "更多分类",
+        icon: "/img/home/n5.png",
       },
     ]
   },
