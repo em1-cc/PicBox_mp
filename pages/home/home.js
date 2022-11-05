@@ -9,12 +9,12 @@ Page({
     swiperData:[
       {
         id: 1,
-        src: "https://static.monknow.com/newtab/wallpaper/329360cd18afacd25c4192ee56d1ac27.jpg",
+        src: "/img/home/0banner1.png",
         link: ""
       },
       {
         id: 2,
-        src: "https://static.monknow.com/newtab/wallpaper/87f38c8890d25a721a9681873fd4c25f.jpg",
+        src: "/img/home/0banner2.png",
         link: ""
       }
     ],
